@@ -9,7 +9,7 @@ export default function HamburgerNav() {
     <header className="hamburger-header">
       <div className="hamburger-container">
         <Link to="/" className="logo">
-          Theodore Babbit
+          Theodore Babbitt
         </Link>
         <button className="hamburger-btn" onClick={() => setOpen(!open)}>
           ☰
