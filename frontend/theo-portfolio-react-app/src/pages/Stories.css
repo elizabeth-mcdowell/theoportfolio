@@ -1,0 +1,30 @@
+.story-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+  .search-and-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .search-and-filter > * {
+    flex: 1;
+    height: 42px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+ .allstories-title {
+
+    margin-left: 20px;
+ }
