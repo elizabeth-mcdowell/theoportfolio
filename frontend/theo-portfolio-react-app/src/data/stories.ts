@@ -10,6 +10,7 @@ export interface Story {
   date: string;
 }
 
+
 export const stories: Story[] = [
   {
     id:"published-1",
@@ -18,7 +19,7 @@ export const stories: Story[] = [
     format: "Article link",
     url:"https://www.theburningrose.com/articles/ydsa-northeastern-launches-free-the-t-campaign-as-semester-priority",
     photo:'/stories/freethet.png',
-    summary: "An article looking into the YDSA's 'Free the T' campgaign and the motivations and benefits of the movement. ",
+    summary: "An article looking into the YDSA's 'Free the T' campaign and the motivations and benefits of the movement. ",
     date: "2024-09-26"    
   },
   {
@@ -28,7 +29,7 @@ export const stories: Story[] = [
     format: "Article link",
     url: "https://pulseofperu.sites.northeastern.edu/port-of-chancay-chinese-megaport-will-transform-peruvian-economy/",
     photo:'/stories/portofchancay.png',
-    summary: "A unique and personal investigation on Chinese investment in Preu.",
+    summary: "A unique and personal investigation on Chinese investment in Peru.",
     date: "2024-09-10",
   },
   {
@@ -62,6 +63,7 @@ export const stories: Story[] = [
     date: "2022-03-01"    
   },
 
+
   {
     id: "book-game-2",
     title: "Genshin Impact: A Pandemic Success Story",
@@ -74,6 +76,8 @@ export const stories: Story[] = [
   },
 
 
+
+
   {
     id: "unpublished-1",
     title: "As criticism piles, Musk shifts DOGE toward Social Security",
@@ -81,7 +85,7 @@ export const stories: Story[] = [
     format: "Google Doc",
     url: "https://docs.google.com/document/d/1Dj8Zn6EU4GwHki62thMZ-uZHIvUCNfw0itj0AR5mhm4/edit?tab=t.0",
     photo:'/stories/doge.png',
-    summary: "Looking at Elon Musks decisions on DOGE and Social Security",
+    summary: "Looking at Elon Musk's decisions on DOGE and Social Security",
     date: "2025-03-16",
   },
   {
@@ -101,7 +105,7 @@ export const stories: Story[] = [
     format: "Google Doc",
     url: "https://docs.google.com/document/d/1pUAdLXvVraP908wQCdWXmTpwRZuPGc4oUxG4gMkH3EY/edit?tab=t.0",
     photo:'/stories/houses.png',
-    summary: "Analyzing the reforms proposed and enacte4d by Maura Healey, Governer of Massachusetts",
+    summary: "Analyzing the reforms proposed and enacted by Maura Healey, Governor of Massachusetts",
     date: "2025-05-4",
   },
   {
@@ -111,9 +115,10 @@ export const stories: Story[] = [
     format: "Google Doc",
     url: "https://docs.google.com/document/d/1wapMyo3MAdeINFnqMUJCpJUQrT4I_phO5OEOkJFwBSw/edit?tab=t.0",
     photo:'/stories/vinyls.png',
-    summary: "Looking at the history of Vinyl's and how they are used today at Northeatern University.",
+    summary: "Looking at the history of Vinyl's and how they are used today at Northeastern University.",
     date: "2024-03-16",
   },
+
 
   {
     id: "video-1",
@@ -146,3 +151,6 @@ export const stories: Story[] = [
     date: "2025-02-14",
   },
 ];
+
+
+
